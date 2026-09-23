@@ -1,0 +1,4 @@
+# Vehicle UI conversion tool bundle.
+- insert:
+    - id: vehicle-ui-tool
+      name: dsh-plugin-vehicle-ui
