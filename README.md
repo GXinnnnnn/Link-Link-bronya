@@ -4,6 +4,8 @@
 
 项目自带的 25 张头像就是原文件夹 `Images/Profile/1.png` 至 `25.png`，图片与音乐文件保持原样。
 
+<img width="1014" height="991" alt="image" src="https://github.com/user-attachments/assets/867e3ffb-574a-478e-8d97-195fff4f8b6a" />
+
 ## 运行
 
 在 [Releases 下载 Windows 便携包](https://github.com/GXinnnnnn/dsh-plugin-vehicle-ui/releases/latest)，完整解压后双击 **LinkGame.exe**。也可以在源码目录中构建，打开 `dist/LinkGame/LinkGame.exe`。
