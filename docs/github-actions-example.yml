@@ -1,0 +1,17 @@
+name: Build Windows game
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch pinned build dependencies
+        shell: powershell
+        run: ./scripts/setup.ps1
+      - name: Build and test original C++ game
+        shell: powershell
+        run: ./scripts/build.ps1 -Test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LinkGame-windows-x64
+          path: dist/LinkGame-v1.0.0-windows-x64.zip

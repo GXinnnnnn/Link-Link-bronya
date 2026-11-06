@@ -1,0 +1,10 @@
+.tools/
+dist/
+memory.txt
+*.obj
+*.o
+*.pdb
+*.sdf
+*.user
+*.suo
+.vs/
